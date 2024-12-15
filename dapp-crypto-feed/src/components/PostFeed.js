@@ -10,7 +10,7 @@ export default function PostFeed({post}) {
                 <span>{post.username} @ {post.author} posted:</span>
             </div>
             <div className={`${styles.postText}`}>
-                <blockquote>{post.text}</blockquote >
+                <blockquote>&#10075;&#10075;{post.text}&#10076;&#10076;</blockquote >
             </div>
             <div className={`${styles.postAuthorLine}`}>
                 <span>Posted in: {dateFormatter(post.postedOn)}</span>

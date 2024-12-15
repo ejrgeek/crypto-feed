@@ -86,6 +86,9 @@
   border-top: 1 #005673 solid;
   border-bottom: 1 #005673 solid;
   border-radius: 0;
+  background-color: #ededed;
+  border-radius: 5px;
+  margin: revert;
 }
 
 .postTimestamp {
@@ -97,18 +100,4 @@
   background-color: #005673;
   display: block;
   width: 100%;
-}
-
-div:has(> blockquote) {
-  background-color: #ededed;
-  border-radius: 5px;
-  margin: revert;
-}
-
-blockquote::before {
-  content: '\275B\275B';
-}
-
-blockquote::after {
-  content: '\275C\275C';
 }

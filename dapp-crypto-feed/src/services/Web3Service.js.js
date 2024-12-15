@@ -13,21 +13,21 @@ export async function login() {
 
     if (!window.ethereum) throw new Error("Metamask plugin not found");
 
-    const web3 = new Web3(window.ethereum);
-    /* const web3 = new Web3("http://127.0.0.1:8545"); */
+    /* const web3 = new Web3(window.ethereum); */
+    const web3 = new Web3("http://127.0.0.1:8545");
 
     const accounts = await web3.eth.requestAccounts();
 
     if (accounts.length === 0) throw new Error("No account found or not allowed to connect");
 
-    localStorage.setItem("wallet", accounts[3]);
+    localStorage.setItem("wallet", accounts[0]);
 
-    return accounts[3];
+    return accounts[0];
 }
 
 function getContract() {
-    const web3 = new Web3(window.ethereum);
-    /* const web3 = new Web3("http://127.0.0.1:8545"); */
+    /* const web3 = new Web3(window.ethereum); */
+    const web3 = new Web3("http://127.0.0.1:8545");
 
     const from = localStorage.getItem("wallet");
 
