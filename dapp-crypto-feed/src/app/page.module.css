@@ -1,0 +1,114 @@
+
+.dividerText {
+  text-align: center;
+  font-size: 16px !important;
+}
+
+.fieldTextPost {
+  background-color: #F6F6F6;
+  border-radius: 0;
+}
+
+.btnPostNow {
+  border-radius: 0;
+  background-color: #06b5d9 !important;
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.btnPostNow:hover {
+  background: #0085A9 !important;
+  color: white !important;
+}
+
+.btnLoadMorePosts {
+  padding: 12 48;
+  background: #06b5d9;
+  color: white;
+  border-radius: 0 !important;
+}
+
+.btnLoadMorePosts:hover {
+  background: #0085A9;
+  color: white;
+}
+
+.btnStyle {
+  padding: 12 48;
+  background: #06b5d9;
+  color: white;
+}
+
+.btnStyle:hover {
+  background: #0085A9;
+  color: white;
+}
+
+.btnCreateUsernameStyle {
+  border-radius: 0 !important;
+  padding: 12;
+  background: #06b5d9;
+  color: white;
+}
+
+.btnCreateUsernameStyle:hover {
+  background: #0085A9;
+  color: white;
+}
+
+.inputCreateUserStyle {  
+  padding: 12;
+  border-color: #06B5D9;
+  background-color: #F6F6F6;
+}
+
+.configFeed {
+  margin: 0 !important;
+  list-style-type: none;
+  padding: 0;
+}
+
+.postBox {
+  background-color: #F9FAFB;
+  inline-size: 100%;
+  border-radius: 0;
+  overflow-wrap: break-word;
+  border: none;
+  box-shadow: 6px 6px 9px #0085A9, -9px -9px 16px #ffffff;
+}
+
+.postAuthorLine {
+  padding: 14px !important;
+}
+
+.postText {
+  padding: 14px !important;
+  border-top: 1 #005673 solid;
+  border-bottom: 1 #005673 solid;
+  border-radius: 0;
+}
+
+.postTimestamp {
+  padding: 14px !important;
+}
+
+
+.footerFixed {
+  background-color: #005673;
+  display: block;
+  width: 100%;
+}
+
+div:has(> blockquote) {
+  background-color: #ededed;
+  border-radius: 5px;
+  margin: revert;
+}
+
+blockquote::before {
+  content: '\275B\275B';
+}
+
+blockquote::after {
+  content: '\275C\275C';
+}
