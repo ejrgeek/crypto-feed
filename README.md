@@ -4,7 +4,9 @@
 
 A social feed decentralized application (dApp) built with React/Next.js, integrated with the BSC Testnet ("Deploy") and a smart contract on the Ethereum Virtual Machine.
 
----## About the Project
+---
+
+## About the Project
 
 Crypto Feed allows users to:
 
@@ -30,7 +32,9 @@ The smart contract uses Solidity to manage posts and usernames, ensuring securit
 - **Back-end**: Contrato inteligente em **Solidity**, implementado na **BSC Testnet**.
 - **Web3 Integração**: Comunicação entre o dApp e blockchain via biblioteca **web3.js**.
 
----## Usage
+---
+
+## Usage
 - Connect your Metamask Wallet.
 - Create a Username (unique and immutable).
 - Post messages in the feed.
